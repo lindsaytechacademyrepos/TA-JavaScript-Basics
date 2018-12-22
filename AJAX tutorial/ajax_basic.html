@@ -16,7 +16,7 @@
             var ajax = new XMLHttpRequest();
 
             // step 2 prepare the open ajax request
-            ajax.open('GET','content.html')
+            ajax.open('GET','content.html');
 
             // define ajax response callback method
             ajax.onreadystatechange = function() {
@@ -30,12 +30,6 @@
                 ajax.send();
                 document.getElementById('btn-content').style.display="none";
             }
-
-
-
-
-
-
 		</script>
     </body>
 </html>
